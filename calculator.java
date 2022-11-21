@@ -7,7 +7,7 @@ public class calculator {
         a=sc.nextInt();
         System.out.println("Enter second number:");
         b=sc.nextInt();
-        System.out.println("enter 1-Addition 2-Subtraction 3-Multiplication 4-Division : ");
+        System.out.println("enter 1-Addition 2-Subtraction 3-Multiplication 4-Division 5- exit : ");
         c=sc.nextInt();
         switch (c) {
             case 1:
@@ -23,6 +23,7 @@ public class calculator {
             case 4: k=a/b;
                 System.out.println("Quotient is "+k);
                 break;
+            case 5:System.exit(0);
         }
 
     }
