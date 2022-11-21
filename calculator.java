@@ -17,6 +17,9 @@ public class calculator {
             case 2: k=a-b;
                 System.out.println("Difference is "+k);
                 break;
+            case 3: k=a*b;
+                System.out.println("Product is "+k);
+                break;
         }
 
     }
