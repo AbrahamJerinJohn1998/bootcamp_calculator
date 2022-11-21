@@ -20,6 +20,9 @@ public class calculator {
             case 3: k=a*b;
                 System.out.println("Product is "+k);
                 break;
+            case 4: k=a/b;
+                System.out.println("Quotient is "+k);
+                break;
         }
 
     }
