@@ -20,8 +20,14 @@ public class calculator {
             case 3: k=a*b;
                 System.out.println("Product is "+k);
                 break;
-            case 4: k=a/b;
+            case 4: try {
+                k=a/b;
                 System.out.println("Quotient is "+k);
+            }
+            catch (ArithmeticException e)
+            {
+                System.out.println("Divide by zero  error");
+            }
                 break;
             case 5:System.exit(0);
         }
