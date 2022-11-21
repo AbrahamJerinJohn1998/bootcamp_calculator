@@ -14,6 +14,9 @@ public class calculator {
                 k = a + b;
                 System.out.println("Sum is " + k);
                 break;
+            case 2: k=a-b;
+                System.out.println("Difference is "+k);
+                break;
         }
 
     }
